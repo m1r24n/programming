@@ -5,7 +5,7 @@ import "fmt"
 func main() {
     var ( 
         data1, data2 float64 = 15.1111,25.333
-        data3 float64
+        data3, data4 float64
     )
     fmt.Println("hello world")
     fmt.Println("data1 ",data1)
