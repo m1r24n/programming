@@ -15,4 +15,5 @@ func main() {
     data1,data4 =  55.5,11.333
     fmt.Println("data1 ",data1)
     fmt.Println("data4 ",data4)
+    fmt.Println("This is the last line, thank you")
 }
