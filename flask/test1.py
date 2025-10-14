@@ -8,6 +8,7 @@ def workers(args1=""):
 
 @app.route('/')
 def root():
+   user_agent = request.headers.get('User-Agent')
    args1="""<h1>This is the main page</h1>
    <h2>Please select an option </h2>
    <ul>
@@ -16,7 +17,8 @@ def root():
    <li><a href='/page3'>page 3 </a>
    <li><a href='/form1'>Form 1</a>
    </ul>
-   """
+   User-Agent {}
+   """.format(user_agent)
    return workers(args1)
 
 @app.route('/page1')
